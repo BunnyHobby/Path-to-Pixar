@@ -1,0 +1,109 @@
+#+options: html-link-use-abs-url:nil html-postamble:auto
+#+options: html-preamble:t html-scripts:t html-style:t
+#+options: html5-fancy:nil tex:t
+#+html_doctype: xhtml-strict
+#+html_container: div
+#+description:
+#+keywords:
+#+html_link_home:
+#+html_link_up:
+#+html_mathjax:
+#+html_head:<script src="https://kit.fontawesome.com/1e82169d82.js" crossorigin="anonymous"></script>
+#+html_head_extra:
+#+subtitle:
+#+infojs_opt:
+#+creator: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.0.50 (<a href="https://orgmode.org">Org</a> mode 9.2.6)
+#+latex_header:
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:t
+#+options: d:(not "LOGBOOK") date:nil e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Path to Pixar
+#+date: <2019-10-03 Thu>
+#+author: Bunny
+#+email: bunny@bunny-VirtualBox
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+
+#+begin_export html
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/RSEEgQQTi0A"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+#+end_export
+
+* First Step -- Ray Tracing
+
+#+begin_export html
+<i class="far fa-hand-point-right">
+  <a href="http://www.realtimerendering.com/raytracing.html">
+    Resource
+  </a>
+</i>
+#+end_export
+
+** Scratchapixel Articles
+
+#+begin_export html
+<i class="far fa-hand-point-right">
+  <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing">
+    Official Homepage
+  </a>
+</i>
+#+end_export
+
+** Ray Tracing in One Weekend
+
+#+begin_export html
+<i class="far fa-file-pdf">
+  <a href="http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf">
+    Book
+  </a>
+</i>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fab fa-github">
+  <a href="https://github.com/BunnyHobby/ray_tracing_in_1_weekend">
+    GitHub
+  </a>
+</i>
+#+end_export
+#+caption: This is my first graphic demo.
+[[./main.jpeg]]
+** CMU 15462 (fall 2019)
+#+begin_export html
+<i class="far fa-file-pdf">
+  <a href="http://15462.courses.cs.cmu.edu/fall2019/courseinfo">
+    Course Info
+  </a>
+</i>
+
+#+end_export
+*** TODO Quiz
+*** TODO Assignment
+* Offline Rendering
+** Physically Based Rendering
+#+begin_export html
+<i class="far fa-hand-point-right">
+  <a href="https://pbrt.org">
+    Official Homepage
+  </a>
+</i>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fas fa-book">
+  <a href="https://pbr-book.org">
+    Free Online Book
+  </a>
+</i>
+#+end_export
+*** LOG
+**** Introduction 
+     - pbrt: System Overview [0/1]
+       + [ ] Scene Representation
+     - [ ] Parallelization of pbrt
