@@ -74,7 +74,7 @@
   </a>
 </i>
 #+end_export
-#+caption: This is my first graphic demo.
+#+caption: Cool! This is my first graphic demo.
 [[./main.jpeg]]
 ** CMU 15462 (fall 2019)
 #+begin_export html
