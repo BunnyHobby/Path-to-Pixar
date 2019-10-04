@@ -78,7 +78,7 @@
 [[./main.jpeg]]
 ** CMU 15462 (fall 2019)
 #+begin_export html
-<i class="far fa-file-pdf">
+<i class="far fa-hand-point-right">
   <a href="http://15462.courses.cs.cmu.edu/fall2019/courseinfo">
     Course Info
   </a>
