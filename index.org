@@ -38,7 +38,13 @@
   allowfullscreen>
 </iframe>
 #+end_export
-
+#+begin_export html
+<i class="fab fa-github">
+  <a href="https://github.com/BunnyHobby/">
+    GitHub
+  </a>
+</i>
+#+end_export
 * First Step -- Ray Tracing
 
 #+begin_export html
@@ -67,16 +73,10 @@
     Book
   </a>
 </i>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fab fa-github">
-  <a href="https://github.com/BunnyHobby/ray_tracing_in_1_weekend">
-    GitHub
-  </a>
-</i>
 #+end_export
 #+caption: Cool! This is my first graphic demo.
 [[./main.jpeg]]
-** CMU 15462 (fall 2019)
+* CMU 15462 (fall 2019)
 #+begin_export html
 <i class="far fa-hand-point-right">
   <a href="http://15462.courses.cs.cmu.edu/fall2019/courseinfo">
@@ -85,12 +85,17 @@
 </i>
 
 #+end_export
-*** TODO Quiz
-*Platform:* ubuntu 19.04
+** TODO Quiz
+#+begin_export html
+<i class="fab fa-linux" aria-hidden="true"></i>
+#+end_export
 **** TODO 
 **** DONE Numerical Linear Algebra
     
-*** TODO Assignment
+** TODO Assignment
+#+begin_export html
+<i class="fab fa-windows" aria-hidden="true"></i>
+#+end_export
 * Offline Rendering
 ** Physically Based Rendering
 #+begin_export html

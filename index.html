@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-10-05 Sat 19:19 -->
+<!-- 2019-10-05 Sat 22:39 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Path to Pixar</title>
@@ -254,23 +254,23 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga17f964">1. First Step &#x2013; Ray Tracing</a>
+<li><a href="#org63a5d4a">1. First Step &#x2013; Ray Tracing</a>
 <ul>
-<li><a href="#org728bcc4">1.1. Scratchapixel Articles</a></li>
-<li><a href="#org106e20b">1.2. Ray Tracing in One Weekend</a></li>
-<li><a href="#orgce879da">1.3. CMU 15462 (fall 2019)</a>
-<ul>
-<li><a href="#org57cb640">1.3.1. <span class="todo TODO">TODO</span> Quiz</a></li>
-<li><a href="#org0218012">1.3.2. <span class="todo TODO">TODO</span> Assignment</a></li>
+<li><a href="#org380a221">1.1. Scratchapixel Articles</a></li>
+<li><a href="#orgdaa81f8">1.2. Ray Tracing in One Weekend</a></li>
 </ul>
 </li>
+<li><a href="#org41458c5">2. CMU 15462 (fall 2019)</a>
+<ul>
+<li><a href="#org86d5765">2.1. <span class="todo TODO">TODO</span> Quiz</a></li>
+<li><a href="#org1dfbd0b">2.2. <span class="todo TODO">TODO</span> Assignment</a></li>
 </ul>
 </li>
-<li><a href="#org333edec">2. Offline Rendering</a>
+<li><a href="#org60a491d">3. Offline Rendering</a>
 <ul>
-<li><a href="#org98bb6e7">2.1. Physically Based Rendering</a>
+<li><a href="#orga083f92">3.1. Physically Based Rendering</a>
 <ul>
-<li><a href="#orgd18512b">2.1.1. LOG</a></li>
+<li><a href="#org0625315">3.1.1. LOG</a></li>
 </ul>
 </li>
 </ul>
@@ -286,9 +286,13 @@ for the JavaScript code in this tag.
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
-
-<div id="outline-container-orga17f964" class="outline-2">
-<h2 id="orga17f964"><span class="section-number-2">1</span> First Step &#x2013; Ray Tracing</h2>
+<i class="fab fa-github">
+  <a href="https://github.com/BunnyHobby/">
+    GitHub
+  </a>
+</i>
+<div id="outline-container-org63a5d4a" class="outline-2">
+<h2 id="org63a5d4a"><span class="section-number-2">1</span> First Step &#x2013; Ray Tracing</h2>
 <div class="outline-text-2" id="text-1">
 <i class="far fa-hand-point-right">
   <a href="http://www.realtimerendering.com/raytracing.html">
@@ -297,8 +301,8 @@ for the JavaScript code in this tag.
 </i>
 </div>
 
-<div id="outline-container-org728bcc4" class="outline-3">
-<h3 id="org728bcc4"><span class="section-number-3">1.1</span> Scratchapixel Articles</h3>
+<div id="outline-container-org380a221" class="outline-3">
+<h3 id="org380a221"><span class="section-number-3">1.1</span> Scratchapixel Articles</h3>
 <div class="outline-text-3" id="text-1-1">
 <i class="far fa-hand-point-right">
   <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing">
@@ -308,18 +312,12 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org106e20b" class="outline-3">
-<h3 id="org106e20b"><span class="section-number-3">1.2</span> Ray Tracing in One Weekend</h3>
+<div id="outline-container-orgdaa81f8" class="outline-3">
+<h3 id="orgdaa81f8"><span class="section-number-3">1.2</span> Ray Tracing in One Weekend</h3>
 <div class="outline-text-3" id="text-1-2">
 <i class="far fa-file-pdf">
   <a href="http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf">
     Book
-  </a>
-</i>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fab fa-github">
-  <a href="https://github.com/BunnyHobby/ray_tracing_in_1_weekend">
-    GitHub
   </a>
 </i>
 
@@ -330,40 +328,41 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-orgce879da" class="outline-3">
-<h3 id="orgce879da"><span class="section-number-3">1.3</span> CMU 15462 (fall 2019)</h3>
-<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org41458c5" class="outline-2">
+<h2 id="org41458c5"><span class="section-number-2">2</span> CMU 15462 (fall 2019)</h2>
+<div class="outline-text-2" id="text-2">
 <i class="far fa-hand-point-right">
   <a href="http://15462.courses.cs.cmu.edu/fall2019/courseinfo">
     Course Info
   </a>
 </i>
 </div>
-<div id="outline-container-org57cb640" class="outline-4">
-<h4 id="org57cb640"><span class="section-number-4">1.3.1</span> <span class="todo TODO">TODO</span> Quiz</h4>
-<div class="outline-text-4" id="text-1-3-1">
-<p>
-<b>Platform:</b> ubuntu 19.04
-</p>
+<div id="outline-container-org86d5765" class="outline-3">
+<h3 id="org86d5765"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> Quiz</h3>
+<div class="outline-text-3" id="text-2-1">
+<i class="fab fa-linux" aria-hidden="true"></i>
 </div>
 <ol class="org-ol">
-<li><a id="org27e44ac"></a><span class="todo TODO">TODO</span> <br /></li>
-<li><a id="org2ee800d"></a><span class="done DONE">DONE</span> Numerical Linear Algebra<br /></li>
+<li><a id="org0213a2f"></a><span class="todo TODO">TODO</span> <br /></li>
+<li><a id="org0c936e2"></a><span class="done DONE">DONE</span> Numerical Linear Algebra<br /></li>
 </ol>
 </div>
 
-<div id="outline-container-org0218012" class="outline-4">
-<h4 id="org0218012"><span class="section-number-4">1.3.2</span> <span class="todo TODO">TODO</span> Assignment</h4>
+<div id="outline-container-org1dfbd0b" class="outline-3">
+<h3 id="org1dfbd0b"><span class="section-number-3">2.2</span> <span class="todo TODO">TODO</span> Assignment</h3>
+<div class="outline-text-3" id="text-2-2">
+<i class="fab fa-windows" aria-hidden="true"></i>
 </div>
 </div>
 </div>
-<div id="outline-container-org333edec" class="outline-2">
-<h2 id="org333edec"><span class="section-number-2">2</span> Offline Rendering</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org60a491d" class="outline-2">
+<h2 id="org60a491d"><span class="section-number-2">3</span> Offline Rendering</h2>
+<div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org98bb6e7" class="outline-3">
-<h3 id="org98bb6e7"><span class="section-number-3">2.1</span> Physically Based Rendering</h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-orga083f92" class="outline-3">
+<h3 id="orga083f92"><span class="section-number-3">3.1</span> Physically Based Rendering</h3>
+<div class="outline-text-3" id="text-3-1">
 <i class="far fa-hand-point-right">
   <a href="https://pbrt.org">
     Official Homepage
@@ -376,13 +375,13 @@ for the JavaScript code in this tag.
   </a>
 </i>
 </div>
-<div id="outline-container-orgd18512b" class="outline-4">
-<h4 id="orgd18512b"><span class="section-number-4">2.1.1</span> LOG</h4>
-<div class="outline-text-4" id="text-2-1-1">
+<div id="outline-container-org0625315" class="outline-4">
+<h4 id="org0625315"><span class="section-number-4">3.1.1</span> LOG</h4>
+<div class="outline-text-4" id="text-3-1-1">
 </div>
 <ol class="org-ol">
-<li><a id="org8017c95"></a>Introduction<br />
-<div class="outline-text-5" id="text-2-1-1-1">
+<li><a id="org4850da2"></a>Introduction<br />
+<div class="outline-text-5" id="text-3-1-1-1">
 <ul class="org-ul">
 <li>pbrt: System Overview <code>[0/1]</code>
 <ul class="org-ul">
@@ -399,7 +398,7 @@ for the JavaScript code in this tag.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Bunny</p>
-<p class="date">Created: 2019-10-05 Sat 19:19</p>
+<p class="date">Created: 2019-10-05 Sat 22:39</p>
 <p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.0.50 (<a href="https://orgmode.org">Org</a> mode 9.2.6)</p>
 </div>
 </body>
