@@ -86,6 +86,55 @@
 
 #+end_export
 *** TODO Quiz
+*Platform:* ubuntu 19.04
+**** TODO 
+**** DONE Numerical Linear Algebra
+     - Eigen Setup Instructions
+       1. Create an empty *quiz2* /directory/
+       2. Go to the Eigen [[http://eigen.tuxfamily.org/index.php?title=Main_Page#Download][download page]]
+       3. Download the source code (/.tar.gz/)
+       4. Extract the file anywhere
+       5. Copy the *Eigen* /subdirectory/ into your *quiz2* /directory/
+     - Solving a Linear System 
+       #+begin_export html
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+       <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+       $$1.2x + 3.4y + 5.6z = 36.4$$
+       $$7.8x + 9.0y + 1.2z = 87.6$$
+       $$3.4x + 5.6y + 7.8z = 62.8$$
+       #+end_export	 
+
+       We wonder the values of /x/, /y/, and /z/.
+
+       *Soution:*
+       #+begin_src cpp :hl_lines 16
+	 #include <iostream>
+	 using namespace std;
+
+	 #include "Eigen/Dense"
+	 using namespace Eigen;
+
+	 int main()
+	 {
+	    Matrix3f A;
+	    Vector3f b;
+	    A << 1.2,3.4,5.6, 7.8,9.0,1.2, 3.4,5.6,7.8;
+	    b << 36.4, 87.6, 62.8;
+	    cout << "Here is the matrix A:\n" << A << endl;
+	    cout << "Here is the vector b:\n" << b << endl;
+	    Vector3f x = A.colPivHouseholderQr().solve(b);
+	    cout << "The solution is:\n" << x << endl;
+	 }
+       #+end_src
+     - Building and Running the Code
+
+       create a plain text file call *Makefile* in your *quiz2* /directory/.
+       #+begin_src makefile
+	 all:
+		 c++ -Wall -I. quiz2.cpp -o quiz2
+       #+end_src
+       
+       type =make= in the *Terminal* and to run it, type =./quiz2=.
 *** TODO Assignment
 * Offline Rendering
 ** Physically Based Rendering
