@@ -39,7 +39,7 @@
 </iframe>
 #+end_export
 #+begin_export html
-<i class="fab fa-github">
+<i class="fab fa-github fa-border">
   <a href="https://github.com/BunnyHobby/">
     GitHub
   </a>
@@ -48,7 +48,7 @@
 * First Step -- Ray Tracing
 
 #+begin_export html
-<i class="far fa-hand-point-right">
+<i class="far fa-hand-point-right fa-border">
   <a href="http://www.realtimerendering.com/raytracing.html">
     Resource
   </a>
@@ -58,7 +58,7 @@
 ** Scratchapixel Articles
 
 #+begin_export html
-<i class="far fa-hand-point-right">
+<i class="far fa-hand-point-right fa-border">
   <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing">
     Official Homepage
   </a>
@@ -68,7 +68,7 @@
 ** Ray Tracing in One Weekend
 
 #+begin_export html
-<i class="far fa-file-pdf">
+<i class="far fa-file-pdf fa-border">
   <a href="http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf">
     Book
   </a>
@@ -78,7 +78,7 @@
 [[./main.jpeg]]
 * CMU 15462 (fall 2019)
 #+begin_export html
-<i class="far fa-hand-point-right">
+<i class="far fa-hand-point-right fa-border">
   <a href="http://15462.courses.cs.cmu.edu/fall2019/courseinfo">
     Course Info
   </a>
@@ -99,13 +99,13 @@
 * Offline Rendering
 ** Physically Based Rendering
 #+begin_export html
-<i class="far fa-hand-point-right">
+<i class="far fa-hand-point-right fa-border">
   <a href="https://pbrt.org">
     Official Homepage
   </a>
 </i>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fas fa-book">
+<i class="fas fa-book fa-border">
   <a href="https://pbr-book.org">
     Free Online Book
   </a>
