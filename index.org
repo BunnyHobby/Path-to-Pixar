@@ -119,3 +119,6 @@
        - [ ] Data Races and Coordination
        - [ ] Conventions in pbrt
        - [ ] Thread Safety Expectations in pbrt
+     - A Brief History of Physically Based Rendering [0/2]
+       - [ ] Research
+       - [ ] Production
