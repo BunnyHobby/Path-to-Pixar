@@ -91,7 +91,7 @@
 #+end_export
 **** TODO 
 **** DONE Numerical Linear Algebra
-    
+**** DONE Basic Vector Class
 ** Assignment
 #+begin_export html
 <i class="fab fa-windows" aria-hidden="true"></i>
