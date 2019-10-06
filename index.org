@@ -85,14 +85,14 @@
 </i>
 
 #+end_export
-** TODO Quiz
+** Quiz
 #+begin_export html
 <i class="fab fa-linux" aria-hidden="true"></i>
 #+end_export
 **** TODO 
 **** DONE Numerical Linear Algebra
     
-** TODO Assignment
+** Assignment
 #+begin_export html
 <i class="fab fa-windows" aria-hidden="true"></i>
 #+end_export
