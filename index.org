@@ -92,11 +92,17 @@
 **** TODO 
 **** DONE Numerical Linear Algebra
 **** DONE Basic Vector Class
+**** TODO 
+**** TODO 
+**** TODO 
+**** TODO 
 **** DONE [[https://codepen.io/transient/pen/dyyyEry][Fractal Pterodactyl]]
 ** Assignment
 #+begin_export html
 <i class="fab fa-windows" aria-hidden="true"></i>
 #+end_export
+**** TODO DrawSVG
+**** TODO Mesh Edit
 * Offline Rendering
 ** Physically Based Rendering
 #+begin_export html
