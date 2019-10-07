@@ -92,7 +92,7 @@
 **** TODO 
 **** DONE Numerical Linear Algebra
 **** DONE Basic Vector Class
-**** DONE Fractal Pterodactyl [[https://codepen.io/transient/pen/dyyyEry][code]]
+**** DONE [[https://codepen.io/transient/pen/dyyyEry][Fractal Pterodactyl]]
 ** Assignment
 #+begin_export html
 <i class="fab fa-windows" aria-hidden="true"></i>
