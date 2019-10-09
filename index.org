@@ -118,7 +118,7 @@
   </a>
 </i>
 #+end_export
-*** LOG
+*** TODO CONTENT
 **** Introduction 
      - pbrt: System Overview [0/1]
        + [ ] Scene Representation
