@@ -132,3 +132,27 @@
      - Further Reading
      - Exercises
 **** Geometry and Transformations
+* Other
+** linear algebra (fall 2011)
+#+begin_export html
+<i class="far fa-hand-point-right fa-border">
+  <a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm">
+    OCW 18.06
+  </a>
+</i>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fab fa-youtube fa-border">
+  <a href="https://www.youtube.com/playlist?list=PL221E2BBF13BECF6C">
+    Video lectures
+  </a>
+</i>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fas fa-book fa-border">
+  <a href="http://math.mit.edu/~gs/linearalgebra/">
+    Free sample Book
+  </a>
+</i>
+#+end_export
+*** Problem Sets
+**** DONE 
+
