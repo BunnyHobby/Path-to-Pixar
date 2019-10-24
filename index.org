@@ -97,6 +97,10 @@
 **** TODO 
 **** TODO 
 **** DONE [[https://codepen.io/transient/pen/dyyyEry][Fractal Pterodactyl]]
+**** TODO 
+**** TODO 
+**** TODO 
+**** DONE Color Conversion
 ** Assignment
 #+begin_export html
 <i class="fab fa-windows" aria-hidden="true"></i>
