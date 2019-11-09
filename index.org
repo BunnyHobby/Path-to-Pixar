@@ -88,7 +88,7 @@
 #+end_export
 #+caption: Cool! This is my first graphic demo.
 [[./main.jpeg]]
-* CMU 15462 (fall 2019)
+* CANCELLED CMU 15462 (fall 2019)
 #+begin_export html
 <i class="far fa-hand-point-right fa-border">
   <a href="http://15462.courses.cs.cmu.edu/fall2019/courseinfo">
